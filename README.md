@@ -33,27 +33,27 @@ This helps in Playlist curation.
 
  Tech Stack**
 ---
-Python 3.10+
+--> Python 3.10+
 
-Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn, streamlit, joblib
+--> Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn, streamlit, joblib
 
-IDE: Jupyter Notebook / VS Code
+--> IDE: Jupyter Notebook / VS Code
 
-Visualization: Streamlit Dashboard
+--> Visualization: Streamlit Dashboard
 
 **Import Libraries:**
 ---
 **  Data Handling **
 
-import pandas as pd
+--> import pandas as pd
 
-import numpy as np
+--> import numpy as np
 
 ** Visualization **
 
-import matplotlib.pyplot as plt
+--> import matplotlib.pyplot as plt
 
-import seaborn as sns
+--> import seaborn as sns
 
 Machine Learning & Clustering 
 ---
@@ -67,21 +67,21 @@ from sklearn.metrics import silhouette_score, davies_bouldin_score
 
 **Approach:**
 ---
-Data Loading & Exploration – Imported the Amazon Music dataset and explored song-level attributes like energy, tempo, and valence using pandas and seaborn.
+--> Data Loading & Exploration – Imported the Amazon Music dataset and explored song-level attributes like energy, tempo, and valence using pandas and seaborn.
 
-Data Cleaning & Feature Engineering – Removed irrelevant columns,Data is already non null.
+--> Data Cleaning & Feature Engineering – Removed irrelevant columns,Data is already non null.
 
-Feature Scaling & Transformation – Normalized all numeric features using StandardScaler to prepare for clustering.
+--> Feature Scaling & Transformation – Normalized all numeric features using StandardScaler to prepare for clustering.
 
-Dimensionality Reduction (PCA) – Reduced high-dimensional data into 2 principal components to visualize patterns and variance among songs.
+--> Dimensionality Reduction (PCA) – Reduced high-dimensional data into 2 principal components to visualize patterns and variance among songs.
 
-Clustering Model Development – Applied KMeans to group songs
+--> Clustering Model Development – Applied KMeans to group songs
 
-Cluster Evaluation & Profiling – Evaluated models using Silhouette Score and Davies–Bouldin Index
+--> Cluster Evaluation & Profiling – Evaluated models using Silhouette Score and Davies–Bouldin Index
 
-Visualization & Insights – Visualized clusters through PCA scatter plots and heatmaps; extracted feature-wise summaries for each cluster.
+--> Visualization & Insights – Visualized clusters through PCA scatter plots and heatmaps; extracted feature-wise summaries for each cluster.
 
-Dashboard Development – Built an interactive Streamlit app to explore clusters dynamically, vis
+--> Dashboard Development – Built an interactive Streamlit app to explore clusters dynamically, vis
 ualize feature comparisons, and display top 10 songs per cluster.
 
 **Snapshot:**
