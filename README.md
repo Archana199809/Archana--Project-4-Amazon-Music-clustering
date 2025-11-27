@@ -101,10 +101,13 @@ ualize feature comparisons, and display top 10 songs per cluster.
 
 
 **User Interface/Implementation:**
+
 The design and functionality of the interactive interface, which allows users to select clusters, apply feature filters, and view summary statistics and comparisons.
 **Results/Insights:**
+
 The key findings from the analysis, such as how different clusters appeal to different moods or use cases, and how the feature means help define these distinctions.
 **Potential Applications:**
+
 Real-world applications of this project, such as personalized music recommendations or playlist generation for specific events
 
 
