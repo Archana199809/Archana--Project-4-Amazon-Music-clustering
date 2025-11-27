@@ -31,7 +31,7 @@ This helps in Playlist curation.
 
 
 
- Tech Stack**
+ Tech Stack
 ---
 --> Python 3.10+
 
